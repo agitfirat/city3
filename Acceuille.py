@@ -19,7 +19,7 @@ def main():
     st.write("fonctionnalité principale :")
     st.write("- Trouver la meilleur ville où vivre.")
 
-    if st.button("Partie visuel", key="redirect_button"):
+    if st.button("Cody +", key="redirect_button"):
         st.markdown("<a href='https://3f1rcodyplus.streamlit.app' target='_blank'>Redirection vers l'application visuelle</a>", unsafe_allow_html=True)
 
 if __name__ == "__main__":
